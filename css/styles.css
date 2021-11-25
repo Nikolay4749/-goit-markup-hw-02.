@@ -1,0 +1,21 @@
+:root {
+  --link: #2196f3;
+  --text-primary: #757575;
+  --text-title: #212121;
+
+  --primary-font: "Roboto";
+  --secondary-font: "Raleway";
+}
+
+body {
+  font-family: var(--primary-font);
+}
+
+ul,
+ol {
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+}
