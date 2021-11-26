@@ -1,14 +1,14 @@
 :root {
-  --link: #2196f3;
+  --accent-color: #2196f3;
   --text-primary: #757575;
   --text-title: #212121;
 
-  --primary-font: "Roboto";
-  --secondary-font: "Raleway";
+  --primary-font: 'Roboto';
+  --secondary-font: 'Raleway';
 }
 
 body {
-  font-family: var(--primary-font);
+  font-family: 'Roboto', Arial, Helvetica, sans-serif;
 }
 
 ul,
@@ -19,3 +19,156 @@ ol {
 a {
   text-decoration: none;
 }
+
+/* ======= Heaeder style start here ======= */
+
+.logo {
+  color: var(--text-title);
+
+  font-family: Raleway;
+  font-weight: 700;
+  font-size: 26px;
+  line-height: 1.2;
+  letter-spacing: 0.03em;
+}
+.logo-accent {
+  color: var(--accent-color);
+}
+
+.nav-link {
+  color: var(--text-title);
+
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.14;
+  letter-spacing: 0.02em;
+}
+
+.nav-list .nav-link:hover,
+.nav-list .nav-link:focus {
+  color: var(--accent-color);
+}
+
+.contakts-link {
+  color: var(--text-primary);
+
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.14;
+  letter-spacing: 0.02em;
+}
+
+.contakts-link:hover,
+.contakts-link:focus {
+  color: var(--accent-color);
+}
+/* ======= Heaeder style end here ======= */
+
+/* ======= Hero style start here ======= */
+.hero-title {
+  font-weight: 900;
+  font-size: 44px;
+  line-height: 1.36;
+  text-align: center;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+
+  color: #ffffff;
+}
+.hero .button {
+  font-family: Roboto;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 1.8;
+  display: flex;
+  align-items: center;
+  text-align: center;
+  letter-spacing: 0.06em;
+
+  color: #ffffff;
+}
+.hero .button {
+  cursor: pointer;
+}
+/* ======= Hero style end here ======= */
+/* ======= feauture style start here ======= */
+.feautere-title {
+  color: var(--text-title);
+
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 1.14;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+}
+
+.content-feauture {
+  color: var(--text-primary);
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 1.7;
+  letter-spacing: 0.03em;
+}
+
+/* ======= feauture style end here ======= */
+
+/* ==== What are we doing style start here ==== */
+.work-examples {
+  color: var(--text-title);
+
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 1.16;
+  text-align: center;
+  letter-spacing: 0.03em;
+}
+
+/* ==== What are we doing style end here ====*/
+
+/* ===== Our team style start here ===== */
+.our-team {
+  color: var(--text-title);
+
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 1.16;
+  text-align: center;
+  letter-spacing: 0.03em;
+}
+.member-team {
+  color: var(--text-primary);
+
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.18;
+  text-align: center;
+  letter-spacing: 0.03em;
+}
+
+/* ===== Our team style end here ===== */
+
+/* ===== Footer style start here ===== */
+
+.location {
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 24px;
+  letter-spacing: 0.03em;
+
+  color: #ffffff;
+}
+
+.footer-link {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 24px
+  letter-spacing: 0.03em;
+
+color: rgba(255, 255, 255, 0.6);
+
+/* ===== Footer style end here ===== */
