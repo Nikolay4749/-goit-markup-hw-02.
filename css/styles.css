@@ -2,15 +2,21 @@
   --accent-color: #2196f3;
   --text-primary: #757575;
   --text-title: #212121;
+  --primary-white-color: #FFFFFF;
+
 
   --primary-font: 'Roboto';
   --secondary-font: 'Raleway';
 }
 
 body {
-  color: #212121;
+  color:var(--text-title)
+  background-color: var(--primary-white-color);
   font-family: 'Roboto',sans-serif;
+  font-size: 14px;
+  letter-spacing: 0.03em;
 }
+
 
 ul,
 ol {
@@ -23,10 +29,12 @@ a {
 
 /* ======= Heaeder style start here ======= */
 
+
+
 .logo {
   color: var(--text-title);
 
-  font-family: Raleway;
+  font-family: "Raleway", sans-serif;
   font-weight: 700;
   font-size: 26px;
   line-height: 1.2;
@@ -51,8 +59,11 @@ a {
 .nav-link:focus {
   color: var(--accent-color);
 }
+.nav-link.current{
+  color: var(--accent-color);
+}
 
-.contakts-link {
+.header-link {
   color: var(--text-primary);
 
   font-family: Roboto;
@@ -63,13 +74,18 @@ a {
   letter-spacing: 0.02em;
 }
 
-.contakts-link:hover,
+.header-link:hover,
 .contakts-link:focus {
   color: var(--accent-color);
 }
 /* ======= Heaeder style end here ======= */
 
 /* ======= Hero style start here ======= */
+
+.hero{
+  background-color: #2F303A;
+}
+
 .hero-title {
   font-weight: 900;
   font-size: 44px;
@@ -81,6 +97,7 @@ a {
   color: #ffffff;
 }
 .hero .button {
+  background-color: var(--accent-color);
   font-family: Roboto;
   font-weight: 700;
   font-size: 16px;
@@ -92,8 +109,9 @@ a {
 
   color: #ffffff;
 }
-button {
+.button {
   cursor: pointer;
+  
 }
 /* ======= Hero style end here ======= */
 /* ======= feauture style start here ======= */
@@ -118,7 +136,7 @@ button {
 /* ======= feauture style end here ======= */
 
 /* ==== What are we doing style start here ==== */
-.work-examples {
+.subtitle {
   color: var(--text-title);
 
   font-weight: 700;
@@ -131,17 +149,14 @@ button {
 /* ==== What are we doing style end here ====*/
 
 /* ===== Our team style start here ===== */
-.our-team {
-  color: var(--text-title);
-
-  font-weight: 700;
-  font-size: 36px;
-  line-height: 1.16;
-  text-align: center;
-  letter-spacing: 0.03em;
+.our-team-section{
+  background-color: #F5F4FA;
 }
+
+
+
 .member-team {
-  color: var(--text-primary);
+  color: var(--text-title);
 
   font-weight: 500;
   font-size: 16px;
@@ -149,10 +164,25 @@ button {
   text-align: center;
   letter-spacing: 0.03em;
 }
+.member-position{
+  
+  color: var(--text-primary);
+
+  font-size: 16px;
+  line-height: 19px;
+  text-align: center;
+  letter-spacing: 0.03em;
+
+
+}
 
 /* ===== Our team style end here ===== */
 
 /* ===== Footer style start here ===== */
+.footer{
+  background-color:#2F303A ;
+ 
+}
 
 .location {
   font-weight: 400;
@@ -178,6 +208,9 @@ color: rgba(255, 255, 255, 0.6);
 .footer-link:focus{
   color: var(--accent-color);
 }
+.logo-footer{
+  color: #ffffff
+}
 
 
 
@@ -190,6 +223,7 @@ color: rgba(255, 255, 255, 0.6);
 .filter-button{
   color: var(--text-title);
 
+  font-family: inherit; 
   font-weight: 500;
   font-size: 16px;
   line-height:1.6;
@@ -218,6 +252,11 @@ color: rgba(255, 255, 255, 0.6);
   letter-spacing: 0.06em;
 
 
+}
+.link{
+  color: var(--text-title);
+  
+  font-family: inherit;
 }
 
 /* ===== product-examples style end here ===== */
