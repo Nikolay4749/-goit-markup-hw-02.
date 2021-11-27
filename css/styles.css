@@ -8,7 +8,8 @@
 }
 
 body {
-  font-family: 'Roboto', Arial, Helvetica, sans-serif;
+  color: #212121;
+  font-family: 'Roboto',sans-serif;
 }
 
 ul,
@@ -46,8 +47,8 @@ a {
   letter-spacing: 0.02em;
 }
 
-.nav-list .nav-link:hover,
-.nav-list .nav-link:focus {
+.nav-link:hover,
+.nav-link:focus {
   color: var(--accent-color);
 }
 
@@ -91,7 +92,7 @@ a {
 
   color: #ffffff;
 }
-.hero .button {
+button {
   cursor: pointer;
 }
 /* ======= Hero style end here ======= */
@@ -171,4 +172,67 @@ a {
 
 color: rgba(255, 255, 255, 0.6);
 
+
+}
+.footer-link:hover,
+.footer-link:focus{
+  color: var(--accent-color);
+}
+
+
+
 /* ===== Footer style end here ===== */
+
+/* =*=*=*= Portfolio =*=*=*= */
+
+/* ===== Filter-button style start here ===== */
+
+.filter-button{
+  color: var(--text-title);
+
+  font-weight: 500;
+  font-size: 16px;
+  line-height:1.6;
+  text-align: center;
+  letter-spacing: 0.03em;
+
+}
+
+.filter-button:hover,
+.filter-button:focus{
+  color: var(--accent-color); 
+
+}
+
+
+/* ===== Filter-button style end here ===== */
+
+/* ===== product-examples style start here ===== */
+
+.product-examples{
+  color: var(--text-title);
+
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 2;
+  letter-spacing: 0.06em;
+
+
+}
+
+/* ===== product-examples style end here ===== */
+
+/* ===== branch style start here ===== */
+.branch{
+  color: var(--text-primary);
+  
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.87;
+  letter-spacing: 0.03em;
+
+
+
+}
+
+/* ===== branch style end here ===== */
