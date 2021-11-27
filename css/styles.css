@@ -2,21 +2,19 @@
   --accent-color: #2196f3;
   --text-primary: #757575;
   --text-title: #212121;
-  --primary-white-color: #FFFFFF;
-
+  --primary-white-color: #ffffff;
 
   --primary-font: 'Roboto';
   --secondary-font: 'Raleway';
 }
 
 body {
-  color:var(--text-title)
+  color: var(--text-title);
   background-color: var(--primary-white-color);
-  font-family: 'Roboto',sans-serif;
+  font-family: 'Roboto', sans-serif;
   font-size: 14px;
   letter-spacing: 0.03em;
 }
-
 
 ul,
 ol {
@@ -29,12 +27,10 @@ a {
 
 /* ======= Heaeder style start here ======= */
 
-
-
 .logo {
   color: var(--text-title);
 
-  font-family: "Raleway", sans-serif;
+  font-family: 'Raleway', sans-serif;
   font-weight: 700;
   font-size: 26px;
   line-height: 1.2;
@@ -47,7 +43,7 @@ a {
 .nav-link {
   color: var(--text-title);
 
-  font-family: Roboto;
+  font-family: 'Roboto', sans-serif;
   font-style: normal;
   font-weight: 500;
   font-size: 14px;
@@ -59,14 +55,14 @@ a {
 .nav-link:focus {
   color: var(--accent-color);
 }
-.nav-link.current{
+.nav-link.current {
   color: var(--accent-color);
 }
 
 .header-link {
   color: var(--text-primary);
 
-  font-family: Roboto;
+  font-family: 'Roboto', sans-serif;
   font-style: normal;
   font-weight: 500;
   font-size: 14px;
@@ -82,8 +78,8 @@ a {
 
 /* ======= Hero style start here ======= */
 
-.hero{
-  background-color: #2F303A;
+.hero {
+  background-color: #2f303a;
 }
 
 .hero-title {
@@ -98,7 +94,7 @@ a {
 }
 .hero .button {
   background-color: var(--accent-color);
-  font-family: Roboto;
+  font-family: 'Roboto', sans-serif;
   font-weight: 700;
   font-size: 16px;
   line-height: 1.8;
@@ -111,11 +107,10 @@ a {
 }
 .button {
   cursor: pointer;
-  
 }
 /* ======= Hero style end here ======= */
 /* ======= feauture style start here ======= */
-.feautere-title {
+.feature-title {
   color: var(--text-title);
 
   font-weight: 700;
@@ -125,7 +120,7 @@ a {
   text-transform: uppercase;
 }
 
-.content-feauture {
+.content-feature {
   color: var(--text-primary);
   font-weight: 400;
   font-size: 14px;
@@ -149,11 +144,9 @@ a {
 /* ==== What are we doing style end here ====*/
 
 /* ===== Our team style start here ===== */
-.our-team-section{
-  background-color: #F5F4FA;
+.our-team-section {
+  background-color: #f5f4fa;
 }
-
-
 
 .member-team {
   color: var(--text-title);
@@ -164,24 +157,20 @@ a {
   text-align: center;
   letter-spacing: 0.03em;
 }
-.member-position{
-  
+.member-position {
   color: var(--text-primary);
 
   font-size: 16px;
   line-height: 19px;
   text-align: center;
   letter-spacing: 0.03em;
-
-
 }
 
 /* ===== Our team style end here ===== */
 
 /* ===== Footer style start here ===== */
-.footer{
-  background-color:#2F303A ;
- 
+.footer {
+  background: #2f303a;
 }
 
 .location {
@@ -197,22 +186,22 @@ a {
   font-style: normal;
   font-weight: 400;
   font-size: 14px;
-  line-height: 24px
+  line-height: 24px;
   letter-spacing: 0.03em;
 
-color: rgba(255, 255, 255, 0.6);
-
-
+  color: rgba(255, 255, 255, 0.6);
 }
 .footer-link:hover,
-.footer-link:focus{
+.footer-link:focus {
   color: var(--accent-color);
 }
-.logo-footer{
-  color: #ffffff
+.logo-footer {
+  color: #ffffff;
 }
-
-
+.location:hover,
+.location:focus {
+  color: var(--accent-color);
+}
 
 /* ===== Footer style end here ===== */
 
@@ -220,58 +209,50 @@ color: rgba(255, 255, 255, 0.6);
 
 /* ===== Filter-button style start here ===== */
 
-.filter-button{
+.filter-button {
   color: var(--text-title);
 
-  font-family: inherit; 
+  font-family: inherit;
   font-weight: 500;
   font-size: 16px;
-  line-height:1.6;
+  line-height: 1.6;
   text-align: center;
   letter-spacing: 0.03em;
-
 }
 
 .filter-button:hover,
-.filter-button:focus{
-  color: var(--accent-color); 
-
+.filter-button:focus {
+  color: var(--accent-color);
 }
-
 
 /* ===== Filter-button style end here ===== */
 
 /* ===== product-examples style start here ===== */
 
-.product-examples{
+.product-examples {
   color: var(--text-title);
 
   font-weight: 700;
   font-size: 18px;
   line-height: 2;
   letter-spacing: 0.06em;
-
-
 }
-.link{
+.link {
   color: var(--text-title);
-  
+
   font-family: inherit;
 }
 
 /* ===== product-examples style end here ===== */
 
 /* ===== branch style start here ===== */
-.branch{
+.branch {
   color: var(--text-primary);
-  
+
   font-weight: 400;
   font-size: 16px;
   line-height: 1.87;
   letter-spacing: 0.03em;
-
-
-
 }
 
 /* ===== branch style end here ===== */
