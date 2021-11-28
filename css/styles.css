@@ -105,7 +105,7 @@ a {
 
   color: #ffffff;
 }
-.button {
+button {
   cursor: pointer;
 }
 /* ======= Hero style end here ======= */
@@ -196,6 +196,12 @@ a {
   color: var(--accent-color);
 }
 .logo-footer {
+  font-family: 'Raleway', sans-serif;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 26px;
+  line-height: 31px;
+  letter-spacing: 0.03em;
   color: #ffffff;
 }
 .location:hover,
