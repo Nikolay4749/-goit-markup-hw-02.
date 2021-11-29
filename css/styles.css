@@ -161,7 +161,7 @@ button {
   color: var(--text-primary);
 
   font-size: 16px;
-  line-height: 19px;
+  line-height: 1.18;
   text-align: center;
   letter-spacing: 0.03em;
 }
@@ -174,9 +174,11 @@ button {
 }
 
 .location {
+  font-family: Roboto, sans-serif;
+  font-style: normal;
   font-weight: 400;
   font-size: 14px;
-  line-height: 24px;
+  line-height: 1.7;
   letter-spacing: 0.03em;
 
   color: #ffffff;
@@ -186,7 +188,7 @@ button {
   font-style: normal;
   font-weight: 400;
   font-size: 14px;
-  line-height: 24px;
+  line-height: 1.7;
   letter-spacing: 0.03em;
 
   color: rgba(255, 255, 255, 0.6);
@@ -200,7 +202,7 @@ button {
   font-style: normal;
   font-weight: 700;
   font-size: 26px;
-  line-height: 31px;
+  line-height: 1.2;
   letter-spacing: 0.03em;
   color: #ffffff;
 }
@@ -248,7 +250,16 @@ button {
 
   font-family: inherit;
 }
+.project-title {
+  color: var(--text-title);
 
+  font-family: 'Roboto', sans-serif;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 2;
+  letter-spacing: 0.06em;
+}
 /* ===== product-examples style end here ===== */
 
 /* ===== branch style start here ===== */
